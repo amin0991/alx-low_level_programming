@@ -1,10 +1,9 @@
 #include<stdio.h>
-/*
+/**
  * main - entry point
  *
  * Description: printing size of various types of data
  * Return: always 0 (Success)
- *
  */
 int main(void)
 {
