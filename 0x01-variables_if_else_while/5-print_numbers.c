@@ -12,7 +12,7 @@ int main(void)
 int dig = 0;
 while (dig < 10)
 {
-printf("%d",dig);
+printf("%d", dig);
 dig += 1;
 }
 putchar('\n');
