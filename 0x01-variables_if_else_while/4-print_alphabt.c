@@ -4,7 +4,7 @@
 /**
 * main - program that prints the alphabet in lowercase,
 * execpt e and q
-* You can only use the putchar 3 TIMES
+* You can only use the putchari
 * Return: 0
 */
 
@@ -13,7 +13,7 @@ int main(void)
 int dig = 'a';
 while (dig <= 'z')
 {
-if(dig == 'q' || dig == 'e')
+if (dig == 'q' || dig == 'e')
 {
 dig++;
 }
