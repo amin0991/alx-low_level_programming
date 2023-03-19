@@ -9,11 +9,11 @@
 int main() {
 int i;
 for(i = 0; i < 10; i++) {
-putchar(i + '0'); // print numbers 0-9
+putchar(i + '0');
 }
 for(i = 0; i < 6; i++) {
-putchar(i + 'a'); // print lowercase letters a-f
+putchar(i + 'a');
 }
-putchar('\n'); // print a newline character
+putchar('\n');
 return 0;
 }
