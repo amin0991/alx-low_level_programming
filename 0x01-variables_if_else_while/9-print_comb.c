@@ -10,23 +10,14 @@
 
 int main(void)
 {
-int dig = '0';
-while (dig == '0' || dig == '1' || dig == '2'
-|| dig == '3' || dig == '4' || dig == '5'
-|| dig == '6' || dig == '7' || dig == '8' || dig == '9')
-{
-if(dig == '9')
-{
-putchar(dig);
-}
-else
-{
-putchar(dig);
-putchar(',');
-}
-dig += 1;
-}
-
+ int i;
+  for (i = 0; i < 10; i++) {
+    putchar(i + '0');
+    if (i < 9) {
+      putchar(',');
+      putchar(' ');
+    }
+  }
 putchar('\n');
 return (0);
 }
