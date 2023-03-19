@@ -11,8 +11,8 @@
 int main(void)
 {
 int dig = '0';
-while (dig == '0' || dig == '1' || dig == '2' 
-|| dig == '3' || dig == '4' || dig == '5' 
+while (dig == '0' || dig == '1' || dig == '2'
+|| dig == '3' || dig == '4' || dig == '5'
 || dig == '6' || dig == '7' || dig == '8' || dig == '9')
 {
 
