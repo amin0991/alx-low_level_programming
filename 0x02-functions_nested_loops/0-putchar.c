@@ -8,7 +8,7 @@ int main(void)
 {
 char X[10] = "_putchar\n";
 int i = 0;
-while(X[i])
+while (X[i])
 {
 _putchar(X[i]);
 i++;
