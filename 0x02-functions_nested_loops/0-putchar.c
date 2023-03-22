@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main: main function required by the class
+ * main - main function required by the class
  * _putchar: print our input to the screen
  * Return: always Return 0 as mentioned
  **/
