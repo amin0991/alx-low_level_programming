@@ -2,7 +2,7 @@
 /**
  *  * print_alphabet - print 'a' to 'z'
  *   * Return: void
- *    */
+ */
 void print_alphabet(void)
 {
 char i;
