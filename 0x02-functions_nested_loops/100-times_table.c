@@ -21,7 +21,7 @@ void print_times_table (int n)
 		{
 			res = i * j;
 			a = res / 100;
-			if (n1 != 0)
+			if (a != 0)
 				b = (res / 10) % 10;
 			else
 				b = res / 10;
@@ -33,11 +33,11 @@ void print_times_table (int n)
 				_putchar(n1 + '0');
 			else
 				_putchar(' ');
-			if (n1 != 0 || n2 != 0)
-				_putchar(n2 + '0');
+			if (a != 0 || b != 0)
+				_putchar(b + '0');
 			else
 				_putchar(' ');
-			_putchar(n3 + '0');
+			_putchar(c + '0');
 			j++;
 		}
 		_putchar('\n');
