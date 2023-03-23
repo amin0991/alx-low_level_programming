@@ -14,7 +14,7 @@ int main(void)
 	f1 = 2;
 	i = 0;
 	printf("%lu, %lu", f0, f1);
-	while ((i++) < 96)
+	while ((i++) <= 49)
 	{
 		fibo = f0 + f1;
 		f0 = f1;
