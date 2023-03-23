@@ -14,13 +14,13 @@ int main(void)
 	f1 = 2;
 	i = 0;
 	fibo = 0;
-	printf("%d, %d", f0, f1);
+	printf("%lu, %lu", f0, f1);
 	while (i <= 56)
 	{
 		fibo = f0 + f1;
 		f0 = f1;
 		f1 = fibo;
-		printf(", %d", fibo);
+		printf(", %lu", fibo);
 	}
 	putchar('\n');
 	return (0);
