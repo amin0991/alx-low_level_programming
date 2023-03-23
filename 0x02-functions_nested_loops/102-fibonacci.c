@@ -12,7 +12,7 @@ int main(void)
 
 	f0 = 1;
 	f1 = 2;
-	i = 0;
+	i = 2;
 	printf("%lu, %lu", f0, f1);
 	while ((i++) <= 49)
 	{
