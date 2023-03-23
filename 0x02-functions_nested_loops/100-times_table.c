@@ -29,7 +29,7 @@ void print_times_table (int n)
 
 			_putchar(',');
 			_putchar(' ');
-			if(n1 != 0)
+			if(a != 0)
 				_putchar(n1 + '0');
 			else
 				_putchar(' ');
