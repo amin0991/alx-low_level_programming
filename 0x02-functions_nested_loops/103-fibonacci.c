@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - print sum of Fibonacci even values under 4 million
- *   *
- *    * Return: always 0 (Success)
- *     */
+* main - print sum of Fibonacci even values under 4 million
+*
+* Return: always 0 (Success)
+*/
 int main(void)
 {
 	unsigned long n1, n2, sum, evens_sum;
