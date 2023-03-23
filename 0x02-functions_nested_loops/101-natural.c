@@ -24,6 +24,6 @@ int sum_multi(void)
  */
 int main(void)
 {
-print("%d\n",sum_multi());
+printf("%d\n", sum_multi());
 return (0);
 }
