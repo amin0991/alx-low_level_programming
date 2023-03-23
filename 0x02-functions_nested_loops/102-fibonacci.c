@@ -13,9 +13,8 @@ int main(void)
 	f0 = 1;
 	f1 = 2;
 	i = 0;
-	fibo = 0;
 	printf("%lu, %lu", f0, f1);
-	while (i <= 50)
+	while ((i++) <= 50)
 	{
 		fibo = f0 + f1;
 		f0 = f1;
