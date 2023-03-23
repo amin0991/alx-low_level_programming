@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * fun_fibonacci - is a function to calculate the 50 iterations
+ * main - is a function to calculate the 50 iterations
  *
  * Return: always return only 0
  */
-int fun_fibonacci(void)
+int main(void)
 {
 	int f0, f1, i, fibo;
 	f0 = 0;
