@@ -1,12 +1,13 @@
-nclude "main.h"
+#include "main.h"
 /**
- *  * times_table - print times table for 0 to 9
- *   *
- *    * Return: void
- *     */
+* times_table - print times table for 0 to 9
+*
+* Return: void
+*/
 void times_table(void)
 {
 	int i, j, Res, a, B;
+
 	i = 0;
 	while (i < 10)
 	{
