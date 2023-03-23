@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * sum_multi - calculate the sum of 5 or 3 multiples under 1024
  *
@@ -16,4 +16,14 @@ int sum_multi(void)
 		i++;
 	}
 	return (n);
+}
+/**
+ * main - print sum of all multiples
+ *
+ * Return: always return 0
+ */
+int main(void)
+{
+print("%d\n",sum_multi());
+return (0);
 }
