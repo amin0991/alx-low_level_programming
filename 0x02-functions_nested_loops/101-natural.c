@@ -7,13 +7,13 @@
 
 int sum_multi(void)
 {
-int i = 0;
-int n = 0;
-while (i < 1024)
-{
-if (i % 3 == 0 || i % 5 == 0)
-	n += i;
-i++;
-}
-
+	int i = 0;
+	int n = 0;
+	while (i < 1024)
+	{
+		if (i % 3 == 0 || i % 5 == 0)
+			n += i;
+		i++;
+	}
+	return (n);
 }
