@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-	int f0, f1, i, fibo;
+	unsigned long f0, f1, fibo;
+	int i = 0;
+
 	f0 = 1;
 	f1 = 2;
 	i = 0;
