@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_sign - checks for alpha characters
+ * print_sign - checks for alpha characters
  * @n: character to check
  *
  * Return: + 1 > 0 if is alpha | 0 if not
