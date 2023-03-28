@@ -7,5 +7,5 @@ void reset_to_98(int *n)
 	 * @n: input
 	 * Return: n
 	 */
-	*n =98;
+	*n = 98;
 }
