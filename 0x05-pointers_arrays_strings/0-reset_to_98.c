@@ -2,8 +2,7 @@
 void reset_to_98(int *n)
 {
 	/**
-	 * reset_to_98 - function, takes a pointer to an int as parameter
-	 * and updates the value it points to to 98
+	 * reset_to_98 - takes a pointer to an int as parameter to 98
 	 * @n: input
 	 * Return: n
 	 */
