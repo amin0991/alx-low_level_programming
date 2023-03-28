@@ -9,6 +9,7 @@ void swap_int(int *a, int *b)
 	 * Return: void
 	 */
 	int x;
+
 	x = *a;
 	*a = *b;
 	*b = x;
