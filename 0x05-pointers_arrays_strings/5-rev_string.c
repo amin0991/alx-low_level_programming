@@ -7,10 +7,10 @@
  */
 void rev_string(char *s)
 {
-	int i,j;
+	int i, j;
 	char rev[500];
 
-	i =0;
+	i = 0;
 	while (s[i] != '\0')
 		i++;
 	i--;
