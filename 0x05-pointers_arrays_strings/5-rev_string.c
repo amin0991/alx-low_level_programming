@@ -1,18 +1,28 @@
 #include "main.h"
 
+/**
+ * rev_string - reverses a gives string
+ * @s: given string
+ * Return: void
+ */
 void rev_string(char *s)
 {
-int i;
+	int i,j;
+	char *rev;
 
-i =0;
-while (s[i] != '\0')
-	i++;
-i--;
-while (i >= 0)
-{
-	_putchar(s[i]);
+	i =0;
+	while (s[i] != '\0')
+		i++;
 	i--;
-}
+	j = 0;
+	while (i >= 0)
+		rev[j++] = s[i--];
 
-_putchar('\n');
+	while (j >= 0)
+	{
+		s[i] = rev[i];
+		i++;
+		j--;
+	}
+
 }
