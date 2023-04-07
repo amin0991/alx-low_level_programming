@@ -9,12 +9,12 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j,b;
+	unsigned int i, j,b;
 
 	i = 0;
 	j = 0;
 	b = 0;
-	while (s != '\0')
+	while (s[i] != '\0')
 	{
 		while (accept[j] != '\0')
 		{
